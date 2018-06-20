@@ -1,16 +1,14 @@
 ---
 name: PayPal
 x-slug: paypal
-description: PayPal is an online payments and money transfer service that allows you
-  to send money via email, phone, text message or Skype. They offer products to both
-  individuals and businesses alike, including online vendors, auction sites and corporate
-  users. PayPal connects effortlessly to bank accounts and credit cards.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+description: PayPal is the faster, safer way to send money, make an online payment,
+  receive money or set up a merchant account.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "71"
 tags: PayPal
-created: "2018-05-22"
-modified: "2018-05-22"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/paypal/master/_listings/paypal/apis.md
 specificationVersion: "0.14"
 apis:
@@ -18,7 +16,7 @@ apis:
   x-api-slug: paypal
   description: Use the GetAdvancedPersonalData API operation to obtain sensitive personal
     data for an account holder.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////Permissions/GetAdvancedPersonalData
   tags: Payments,Profiles
@@ -29,7 +27,7 @@ apis:
   x-api-slug: paypal
   description: Use the GetBasicPersonalData API operation to obtain basic personal
     data for an account holder.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////Permissions/GetBasicPersonalData
   tags: Payments,Profiles
@@ -40,7 +38,7 @@ apis:
   x-api-slug: paypal
   description: Use the CancelPermissions API operation to cancel access to a set of
     permissions.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////Permissions/CancelPermissions
   tags: Payments,Permissions
@@ -51,7 +49,7 @@ apis:
   x-api-slug: paypal
   description: Use the GetPermissons API operation to obtain the permissions associated
     with an access token.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////Permissions/GetPermissions
   tags: Payments,Permissions
@@ -62,7 +60,7 @@ apis:
   x-api-slug: paypal
   description: Use the GetAccessToken API operation to obtain an access token for
     a set of permissions.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////Permissions/GetAccessToken
   tags: Payments,Access Tokens
@@ -73,7 +71,7 @@ apis:
   x-api-slug: paypal
   description: "Use the RequestPermissions API operation to request permissions to
     execute API operations on a PayPal account holder\u2019s behalf."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////Permissions/RequestPermissions
   tags: Payments,Permissions
@@ -83,7 +81,7 @@ apis:
 - name: Paypal Search Invoices
   x-api-slug: paypal
   description: Use the SearchInvoice API operation to search an invoice.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////Invoice/SearchInvoices
   tags: Payments,Invoices,Search
@@ -93,7 +91,7 @@ apis:
 - name: Paypal Mark Invoice As Paid
   x-api-slug: paypal
   description: Use the MarkInvoiceAsPaid API operation to mark an invoice as paid.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////Invoice/MarkInvoiceAsPaid
   tags: Payments,Invoices
@@ -103,7 +101,7 @@ apis:
 - name: Paypal Cancel Invoice
   x-api-slug: paypal
   description: Use the CancelInvoice API operation to cancel an invoice.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////Invoice/Cancel Invoice
   tags: Payments,Invoices
@@ -114,7 +112,7 @@ apis:
   x-api-slug: paypal
   description: Use the GetInvoiceDetails API operation to get detailed information
     about an invoice.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////Invoice/GetInvoiceDetails
   tags: Payments,Invoices
@@ -124,7 +122,7 @@ apis:
 - name: Paypal Update Invoice
   x-api-slug: paypal
   description: Use the UpdateInvoice API operation to update an invoice.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////Invoice/UpdateInvoice
   tags: Payments,Invoices
@@ -134,7 +132,7 @@ apis:
 - name: Paypal Create And Send Invoice
   x-api-slug: paypal
   description: Use the CreateAndSendInvoice API operation to create and send an invoice.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////Invoice/CreateAndSendInvoice
   tags: Payments,Invoices
@@ -145,7 +143,7 @@ apis:
   x-api-slug: paypal
   description: Use the SendInvoice API operation to send an invoice to a payer, and
     notify the payer of the pending invoice.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////Invoice/SendInvoice
   tags: Payments,Invoices
@@ -157,7 +155,7 @@ apis:
   description: Use the CreateInvoice API operation to create a new invoice. The call
     includes merchant, payer, and API caller information, in addition to invoice detail.
     The response to the call contains an invoice ID and URL.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////Invoice/CreateInvoice
   tags: Payments,Invoices
@@ -168,7 +166,7 @@ apis:
   x-api-slug: paypal
   description: The GetUserAgreement API operation lets you retrieve the user agreement
     for the customer to approve the new PayPal account.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////AdaptiveAccounts/GetUserAgreement
   tags: Payments,Aggreements
@@ -182,7 +180,7 @@ apis:
     circumstances, such as when an account is linked to a verified funding source.
     Verified status serves to indicate a trust relationship. For more information
     about account verified status, refer to PayPal.com.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////AdaptiveAccounts/GetVerifiedStatus
   tags: Payments,Verified,Status
@@ -193,7 +191,7 @@ apis:
   x-api-slug: paypal
   description: The SetFundingSourceConfirmed API operation lets your application set
     up bank accounts as funding sources for PayPal accounts.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////AdaptiveAccounts/SetFundingSourceConfirmed
   tags: Payments,Verified,Status
@@ -204,7 +202,7 @@ apis:
   x-api-slug: paypal
   description: The AddPaymentCard API operation lets your application set up credit
     cards as funding sources for PayPal accounts.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////AdaptiveAccounts/AddPaymentCard
   tags: Payments,Credit Card
@@ -215,7 +213,7 @@ apis:
   x-api-slug: paypal
   description: The AddBankAccount API operation lets your application set up bank
     accounts as funding sources for PayPal accounts.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////AdaptiveAccounts/AddBankAccount
   tags: Payments,Bank Account
@@ -226,7 +224,7 @@ apis:
   x-api-slug: paypal
   description: The CreateAccount API operation enables you to create a PayPal account
     on behalf of a third party.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////AdaptiveAccounts/CreateAccount
   tags: Payments
@@ -240,7 +238,7 @@ apis:
     into account the preferences and country of the receiver as well as the payment
     amount. You must be both the sender of the payment and the caller of this API
     operation
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////AdaptivePayments/GetFundingPlans
   tags: Payments,Plans
@@ -254,7 +252,7 @@ apis:
     the account holder whose shipping address you want to obtain, or be the primary
     receiver of the payment or one of the parallel receivers of the payment. The shipping
     address is available only if it was provided during the embedded payment flow.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////AdaptivePayments/GetShippingAddresses
   tags: Payments,Addresses
@@ -267,7 +265,7 @@ apis:
     with the Pay API operation with the actionType CREATE. To pay receivers identified
     in the Pay call, set the pay key from the PayResponse message in the ExecutePaymentRequest
     message.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////AdaptivePayments/ExecutePayment
   tags: Payments
@@ -279,7 +277,7 @@ apis:
   description: "You use the SetPaymentOptions API operation to specify settings for
     a payment of the actionType CREATE. \n\t\t\t\t\tThis actionType is specified in
     the PayRequest message."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////AdaptivePayments/SetPaymentOptions
   tags: Payments
@@ -290,7 +288,7 @@ apis:
   x-api-slug: paypal
   description: You use the GetPaymentOptions API operation to retrieve the payment
     options passed with the SetPaymentOptionsRequest.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////AdaptivePayments/GetPaymentOptions
   tags: Payments
@@ -303,7 +301,7 @@ apis:
     can specify the amount of the refund and identify the accounts to receive the
     refund by the payment key or tracking ID, and optionally, by transaction ID or
     the receivers of the original payment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////AdaptivePayments/Refund
   tags: Payments,Refunds
@@ -314,7 +312,7 @@ apis:
   x-api-slug: paypal
   description: Use the ConvertCurrency API operation to request the current foreign
     exchange (FX) rate for a specific amount and currency.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////AdaptivePayments/ConvertCurrency
   tags: Payments,Currency
@@ -326,7 +324,7 @@ apis:
   description: Use the CancelPreapproval API operation to handle the canceling of
     preapprovals. Preapprovals can be canceled regardless of the state they are in,
     such as active, expired, deactivated, and previously canceled.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////AdaptivePayments/CancelPreapproval
   tags: Payments
@@ -338,7 +336,7 @@ apis:
   description: "Use the PreapprovalDetails API operation to obtain information about
     an agreement between you and a sender for making payments on the sender\u2019s
     behalf."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////AdaptivePayments/PreapprovalDetails
   tags: Payments
@@ -353,7 +351,7 @@ apis:
     by any of the following constraints: the number of payments, a maximum per-payment
     amount, a specific day of the week or the month, and whether or not a PIN is required
     for each payment request."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////AdaptivePayments/Preapproval
   tags: Payments
@@ -365,7 +363,7 @@ apis:
   description: Use the PaymentDetails API operation to obtain information about a
     payment. You can identify the payment by your tracking ID, the PayPal transaction
     ID in an IPN message, or the pay key associated with the payment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////AdaptivePayments/PaymentDetails
   tags: Payments
@@ -378,7 +376,7 @@ apis:
     account to one or more receivers\u2019 PayPal accounts. You can use the Pay API
     operation to make simple payments, chained payments, or parallel payments; these
     payments can be explicitly approved, preapproved, or implicitly approved."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////AdaptivePayments/Pay
   tags: Payments
@@ -387,12 +385,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/paypal/master/_listings/paypal/adaptivepaymentspay-post-openapi.md
 - name: Paypal
   x-api-slug: paypal
-  description: PayPal is an online payments and money transfer service that allows
-    you to send money via email, phone, text message or Skype. They offer products
-    to both individuals and businesses alike, including online vendors, auction sites
-    and corporate users. PayPal connects effortlessly to bank accounts and credit
-    cards.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  description: PayPal is the faster, safer way to send money, make an online payment,
+    receive money or set up a merchant account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com//
   tags: PayPal
@@ -402,6 +397,8 @@ apis:
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/paypal
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/paypal
 - type: x-developer
