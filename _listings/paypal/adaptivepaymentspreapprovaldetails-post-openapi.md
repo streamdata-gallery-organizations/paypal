@@ -4,9 +4,8 @@ x-collection-name: PayPal
 x-complete: 0
 info:
   title: Paypal Preapproval Details
-  description: "Use the PreapprovalDetails API operation to obtain information about
-    an agreement between you and a sender for making payments on the sender\u2019s
-    behalf."
+  description: Use the PreapprovalDetails API operation to obtain information about
+    an agreement between you and a sender for making payments on the sender???s behalf.
   version: 1.0.0
 host: svcs.sandbox.paypal.com
 basePath: /
@@ -85,8 +84,8 @@ paths:
   /Permissions/RequestPermissions:
     post:
       summary: Request Permissions
-      description: "Use the RequestPermissions API operation to request permissions
-        to execute API operations on a PayPal account holder\u2019s behalf."
+      description: Use the RequestPermissions API operation to request permissions
+        to execute API operations on a PayPal account holder???s behalf.
       operationId: Permissions.RequestPermissions.post
       x-api-path-slug: permissionsrequestpermissions-post
       responses:
@@ -398,9 +397,9 @@ paths:
   /AdaptivePayments/PreapprovalDetails:
     post:
       summary: Preapproval Details
-      description: "Use the PreapprovalDetails API operation to obtain information
-        about an agreement between you and a sender for making payments on the sender\u2019s
-        behalf."
+      description: Use the PreapprovalDetails API operation to obtain information
+        about an agreement between you and a sender for making payments on the sender???s
+        behalf.
       operationId: AdaptivePayments.PreapprovalDetails.post
       x-api-path-slug: adaptivepaymentspreapprovaldetails-post
       responses:
